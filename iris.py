@@ -23,3 +23,7 @@ print(accuracy)
 print("------")
 print(confusion_matrix(y_prediction,y_test))
 print(classification_report(y_test, y_prediction, target_names=iris.target_names))
+
+label = RandomForestClassifier()
+
+df ["species"] = label.fit_transform()
